@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+body{
+    background-color: blue;
+}
+header {
+    z-index: 32;
+    display: flex;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--color-header-text);
+    background-image: linear-gradient(rgb(7, 7, 244), rgba(54, 52, 52, 0.859));
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: green;
+}
+
+header div.nome {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 50px;
+    align-self: stretch;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+header div.nome:hover{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 50px;
+    align-self: stretch;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: rgb(1, 1, 123);
+    border-radius: 5px;
+    
+}
+
+header div.contato:hover{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5%;
+    align-self: stretch;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: rgb(2, 2, 196);
+    border-radius: 3.5px;
+}
+header div.contato{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5%;
+    align-self: stretch;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+
+header div.nada{
+    margin-left: 60%;
+}
+div nav img{
+    text-align: center;
+    
+}
+div nav {
+    text-align: center;
+    
+}
