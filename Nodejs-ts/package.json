@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-ts",
+  "version": "1.0.0",
+  "description": "projeto de teste do typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "usuario",
+    "criação"
+  ],
+  "author": "evan junior",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.41",
+    "typescript": "^4.7.3"
+  }
+}

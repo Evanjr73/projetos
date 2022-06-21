@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(159, 41, 186, 0.919);
+}
+
+
+a{
+    text-decoration: none;
+    
+    border-radius: 5px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+    color: black;
+
+}
+header a:hover{
+    background-color: rgb(81, 18, 141);
+}
+div#segundadiv{
+    background-color:rgb(56, 6, 107)t;
+    
+    text-align: center;
+}
+
+img.fotodeperfil{
+    width: 150px;
+    border-radius: 500px;
+    display: inline;
+    
+}
+
+div#primeiraDiv{
+    text-align: center;
+    background-image: linear-gradient(to bottom, blueviolet, rgb(56, 6, 107));
+    display: block;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow:  0px 5px 5px rgba(212, 111, 111, 0.445);
+    
+
+}
+article{
+    text-align: center;
+}
+div.roupas{
+    background-color: rgba(255, 255, 255, 0.568);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+    margin: 30px;
+    box-shadow:  10px 9px 9px rgba(212, 111, 111, 0.753);
+    
+}
+div.roupas a{
+    margin-top: 15px;
+}
+div.roupas img{
+    width: 200px;
+    display: block;
+    
+}
+p{
+    display: block;
+    width: 200px;
+}
