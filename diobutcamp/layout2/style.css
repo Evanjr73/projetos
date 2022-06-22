@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.corpo{
+    display: flex;
+    width: 100rem;
+    height: 100%;
+    text-align: center;
+    font-size: center;
+
+}
+.instagram-phone img {
+    width: 100px;
+}
+
+.celular{
+    display: flex;
+    text-align: center;
+    font-size: center;
+    height: 45rem;  
+    width: 600px;
+
+     /* display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;  */
+}
+
+/* .home1{
+    background-color: white;
+    flex-direction: column;
+    text-align: center;
+    align-content: space-around;
+    
+} */
+.corpo{
+    /* background-color: blue; */
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    padding-top: 3rem;
+}
+.home1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 90%; 
+    padding: 1.3rem 0; 
+   
+    border: 1px solid lightgray;
+    
+}
+
+
+.continue{
+    /* padding: 5px 5px 5px 5px;
+    display: flex;
+    background-color: blue;
+    border-radius: 5px;
+    color: rgb(250, 14, 14);
+    text-decoration: none; */
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 7px;
+    margin: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+a {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+.home2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 90%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    
+}
+.home3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 1.3rem 0;
+    
+    
+}
+
+.ima{
+    display: flex;
+    
+    
+}
+
+#apple{
+    display: block;
+    width: 150px;
+    margin-left: 15px;
+}
+#google{
+    margin-left: 15px;
+    display: block;
+    width: 150px;
+}
+#perfil{
+    border-radius: 80px;
+}
+/* a > img{
+    width: 50%;
+    
+} */
