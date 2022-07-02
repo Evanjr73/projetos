@@ -5,7 +5,14 @@
 body{
     background-color: rgba(159, 41, 186, 0.919);
 }
-
+#myVideo {
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
 
 a{
     text-decoration: none;
@@ -17,6 +24,17 @@ a{
     margin-left: 15px;
     color: black;
 
+}
+header{
+    text-align: center;
+    background-image:url("imagens/verão.jpg");
+
+   
+    display: block;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow:  0px 5px 5px rgba(212, 111, 111, 0.445);
+    position:static;
 }
 header a:hover{
     background-color: rgb(81, 18, 141);
@@ -37,11 +55,13 @@ img.fotodeperfil{
 div#primeiraDiv{
     text-align: center;
     background-image: linear-gradient(to bottom, blueviolet, rgb(56, 6, 107));
+
+   
     display: block;
     margin: 15px;
     border-radius: 15px;
     box-shadow:  0px 5px 5px rgba(212, 111, 111, 0.445);
-    
+    position:static;
 
 }
 article{

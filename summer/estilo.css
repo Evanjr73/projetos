@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    background-image: url("https://i.pinimg.com/originals/b3/45/e4/b345e46becdaeaaa9dcf6ea6144c91a9.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+header{
+    
+    background-image:url("imagens/verão.jpg");
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    
+    gap: 52%;
+    box-shadow:  0px 5px 5px rgba(212, 111, 111, 0.445);
+    
+}
+
+header img{
+    justify-content: flex-start;
+}
+
+
+.logo{
+    
+    margin: 5px;
+    
+    width: 28px;
+    
+
+    
+}
+#perfil{
+    width: 200px;
+   
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.356) 5px 5px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav :hover{
+    background-color: rgb(83, 21, 21);
+}
+.butãonav {
+    background-color: brown;
+    border-radius: 3px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 75px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-block-end: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+
+}
+
+#ajuda{
+    margin-right: 25px;
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 55px;
+    
+}
+.lorem{
+   
+}
+
+
+.novacoleção{
+    /* text-align: center;
+    justify-content: center;
+    justify-items: center; */
+    
+    background-color: rgb(129, 25, 94);
+    border: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.356) 5px 5px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px, 5px, 5px, 5px;
+}
+main > div{
+    max-width: 450px;
+    
+    display: flex;
+    /* margin-left: 100px; */
+    margin-right: 25px;
+    box-shadow: rgba(0, 0, 0, 0.356) 5px 5px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+}
+.imagem{
+    margin-left: 280px;
+}
