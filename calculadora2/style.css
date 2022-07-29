@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: blue ;
+
+}
+.grid-container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+}

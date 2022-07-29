@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="style/the-calculator.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <form action="" name="Calculator">
+            <h1>Calculator</h1>
+            <input type="text" id="main_text1" name="text1"><br>
+            
+            <input type="button" name="text2" value="C" onclick="location.reload()">
+            <input type="button" name="percentage" value="%" onclick="displaynum(percentage.value)">
+            <input type="button" value="⌫">
+            <input type="button" class="calc_btts" name="sqrt" value="√" onclick="sqroot()"><br>
+
+            <input type="button" class="num_btts" name="button7" value="7" onclick="displaynum(button7.value)">
+            <input type="button" class="num_btts" name="button8" value="8" onclick="displaynum(button8.value)">
+            <input type="button" class="num_btts" name="button9" value="9" onclick="displaynum(button9.value)">
+            <input type="button" class="calc_btts" name="plus" value="+" onclick="displaynum(plus.value)"><br>
+
+            <input type="button" class="num_btts" name="button4" value="4" onclick="displaynum(button4.value)">
+            <input type="button" class="num_btts" name="button5" value="5" onclick="displaynum(button5.value)">
+            <input type="button" class="num_btts" name="button6" value="6" onclick="displaynum(button6.value)">
+            <input type="button" class="calc_btts" name="sub" value="-" onclick="displaynum(sub.value)"><br>
+
+            <input type="button" class="num_btts" name="button1" value="1" onclick="displaynum(button1.value)">
+            <input type="button" class="num_btts" name="button2" value="2" onclick="displaynum(button2.value)">
+            <input type="button" class="num_btts" name="button3" value="3" onclick="displaynum(button3.value)">
+            <input type="button" class="calc_btts" name="mult" value="*" onclick="displaynum(mult.value)"><br>
+
+            <input type="button" class="num_btts" name="button0" value="0" onclick="displaynum(button0.value)">
+            <input type="button" class="num_btts" name="button_point" value="." onclick="displaynum(button_point.value)">
+            <input type="button" class="num_btts" name="button_equal" value="=" onclick="text1.value=eval(text1.value)">
+            <input type="button" class="calc_btts" name="divide" value="/" onclick="displaynum(divide.value)"><br>
+        </form>
+    </div>
+</body>
+<script src="script/scr56ipt.js">
+</script>
+</html>
