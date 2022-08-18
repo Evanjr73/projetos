@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("img/wallpaper.webp");
+    
+    
+
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+div#conteiner{
+
+    
+}
+div.casas{
+    background-color: rgba(114, 30, 30, 0.452);
+    display: inline-block;
+    
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 230px;
+    margin-left: 130px;
+    box-shadow:  10px 9px 9px rgba(33, 24, 24, 0.753);
+
+}
+
+footer{
+    background-color: aliceblue;
+    margin-top: 50px;
+    border-radius: 15px;
+    margin: 5em;
+    padding: 5px;
+}
+#sonserina{
+    margin-left: 150px;
+}
